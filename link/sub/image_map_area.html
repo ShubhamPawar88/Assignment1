@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <img src="/Html/image1/tv.jpg" usemap=" #tv_map">
+
+    <map name="tv_map">
+        <area shape="rect" coords="770,284,945,421" href="/Html/Code/about.html">
+
+        <area shape="rect" coords="61,53,716,573" href="/Html/code/br_tag.html" >
+        <!-- circle center x axis - circle start x  axis
+            radius find = center - satrt point circle
+  -->
+        <area shape="circle" coords="861,180,61" href="/Html/Code/favicon.html">
+        
+
+    </map>
+    <br><br>
+
+    <img src="/Html/image1/icecream.jpg" alt="Icecream Image" usemap="#ice_map">
+    <map name="ice_map">
+        <area shape="poly" coords="212,556,160,514,136,427,184,296,,328,215,428,220,542,265,604,289,646,451,593,538,524,867,525,863,482,1018,449,
+        1138,425,1153,382,1058,346,937,289,770,213,556" href="/Html/Code/Heading_tag.html" alt="">
+
+    </map>
+    <!-- we can specif 4 values in shape attribute like rect,circle,poly,default
+      in case of "rect" value we can draw/select rectangular area on image
+      in case of "circle" value we can draw/select circular area on image
+      in case of "poly" value we can draw/select polygonal area on image
+      in case of "default" value we can draw/select WHOLE area on image -->
+
+    <br><br>
+    <img src="/Html/link/sub/Smile.png.jpg" alt="" usemap="#def_map">
+    <map name="def_map">
+        <area shape="default" coords="" href="/Html/Code/formating_tag.html" alt="">
+    </map>
+
+</body>
+</html>

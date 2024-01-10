@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        meter{
+            height: 100px;
+            width: 100%;
+        }
+        progress{
+            height: 100px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <!-- in below meter tag we to use value attribute to shoe meserment of disk temprature -->
+  <label for="">Local Disk(C):</label> <br>
+  <!-- here value=0 means disk is empty -->
+  <meter value="0"></meter><br>
+  <!-- here value=0.5  means disk is half or 50% filled -->
+  <meter value="0.5"></meter><br>
+  <!-- here value=1  means disk is full or 100% filled -->
+  <meter value="1"></meter>
+  <br><br>
+  <label for="">Local Disl(D):</label><br>
+<!-- here min=0 means disk is empty and max=100 means disk is full -->
+<!-- if value goes beyond 80 then it will indicates warning -->
+  <meter low="20" high="80" min="o" max="100" value="16"></meter>
+  <meter low="20" high="80" min="o" max="100" value="85"></meter>
+  <meter low="20" high="85" min="o" max="100" value="80"></meter>
+  <br><br>
+  Downloding Progress
+  <Progress value="70" min="0" max="100" ></Progress><br>
+  <progress></progress><br>
+
+</body>
+</html>

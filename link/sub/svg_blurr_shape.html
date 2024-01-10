@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- defs tag indicates that it include code /definitiion of filter feGaussianBlurtag use to add blur effect on your svg shape 
+    in="sourceGraphic indicatesblur effect application for whole the element filter tag include amount of blur effect which we want" -->
+    <svg width="1100" height="900" style="border: 4px solid black;">
+        <defs>
+            <filter id="f1">
+                <feGaussianBlur stdDeviation="10" in="sourceGraphic"></feGaussianBlur>
+            </filter>
+        </defs>
+        <rect x="200" y="200" filter="url(#f1)" width="200" height="150" fill="lightpink" stroke="black" stroke-width="4"></rect>
+        <circle cx="200" cy="500" r="90" filter="url(#f1)" fill="pink" stroke="black" stroke-width="4"></circle>
+    </svg>
+</body>
+</html>

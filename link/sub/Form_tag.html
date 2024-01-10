@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="icon" type="icon/x-icon" href="/link/sub/Smile.png.jpg">
+</head>
+<body>
+    <h1><i>student Registration Form for online Course</i></h1>
+    <form action="/Html/code/about.html" method="get">  
+         <label>Hidden input filed For Id: </label>
+       <input type="hidden"> <br><br>
+        <label >Enter Your Frist Name :</label>
+        <input type="text" placeholder="Enter your Frist Name" name="fname" id="f1" required><br><br>
+
+        <label >Enter Your Middal Name :</label>
+        <input type="text"  placeholder="Enter your Middal Name"  name="mname" id="m1"><br><br>
+
+        <label >Enter Your Last Name :</label>
+        <input type="text"  placeholder="Enter your Last Name"  name="lname" id="l1"><br><br>
+
+        <label >Enter Your Email:</label>
+        <input type="email"  name="Email" id="e1"><br><br>
+        <!-- Enter yore password  greater than 8 character  -->
+
+        <label >Enter Your Password:</label>
+        <input type="password"  name="pass" id="p1"  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"><br><br>
+
+        <label >Enter Your Contact Number</label>
+        <input type="tel" name="phone" id="ph"   pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" value="123-123-1234"><br><br>
+
+        <label > Enter Your Age</label>
+        <input type="number" name="age" +id="a1"  min="1" max="30"> <br><br>
+
+        <label for="gender">Gender</label> <br>
+
+        <input type="checkbox" name="Male" id="m1">
+        <label for="gender">Male</label> <br>
+        
+        <input type="checkbox" name="Female" id="f1">
+        <label for="gender">Female</label> <br>
+        
+        <input type="checkbox" name="Other" id="o1">
+        <label for="gender">Other</label> <br><br>
+
+        <label> Have You Complete Your Technical Education?</label><br>
+        <input type="radio" name="Yes" id="y" value="Yes">
+        <label >Yes</label><br><br>
+
+        <input type="radio" name="Yes" id="n" value="No">
+        <label >No</label><br><br>
+
+        <label >Enter Your Birthdate</label>
+        <input type="date" name="bdate" id="b1"><br><br>
+
+        <label >Enter Your Course Joining Date And Time</label>
+        <input type="datetime-local" name="jbdate" id="j1"><br><br>
+
+        <label > Select Course which You Want join:</label>
+        <select  name="Course" id="cs" >
+            <option value="web" >web</option>
+            <option value="Java" >Java</option>
+            <option value="Html" >Html</option>
+            <option value="javascript" >javascript</option>
+        </select><br><br>
+        <label > upload Profile</label>
+        <input type="file"><br><br>
+
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit"><br><br>
+
+    </form>
+</body>
+</html>

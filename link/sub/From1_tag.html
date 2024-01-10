@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+        <title>Form Assignment</title>
+        <style>
+            body {
+                display: flex;
+                justify-content: center;
+            }
+
+            .container {
+                width: 97%;
+                height: auto;
+                /* border: 1px solid black; */
+            }
+
+            label {
+                font-weight: bold;
+            }
+
+            .black {
+                display: flex;
+                align-items: start;
+                text-align: center;
+                background-color: black;
+                height: 40px;
+            }
+
+            .black p {
+                margin-left: 10px;
+                /* width: 100%; */
+                color: white;
+                margin-top: 10px;
+                /* font-size: 40px; */
+                /* padding: 10px; */
+            }
+
+            .club-top {
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .club-first input {
+                padding: 5px 50px;
+                border: 2px solid black;
+                font-size: 40px;
+                font-weight: bold;
+            }
+
+            table {
+                width: 400px;
+                height: 60px;
+
+            }
+
+            .number {
+                width: 350px;
+                height: 60px;
+            }
+
+            .club-name {
+                display: flex;
+                justify-content: space-between;
+                margin-top: 10px;
+                margin-bottom: 10px;
+
+            }
+
+            .club-name div input.off {
+                width: 500px;
+                font-size: 30px;
+                font-weight: bold;
+                padding: 10px 40px;
+                border: 2px solid black;
+            }
+
+            .club-name div input.pos {
+                width: 320px;
+                font-size: 30px;
+                font-weight: bold;
+                padding: 10px 40px;
+                border: 2px solid black;
+            }
+
+            /*  */
+            .player-name {
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .player-name div input.names {
+                padding: 15px 40px;
+                border: 2px solid black;
+                width: 450px;
+            }
+
+            .exp {
+                font-size: 25px;
+            }
+
+            .checkbox {
+                height: 30px;
+                width: 30px;
+            }
+
+            /*  */
+            .address {
+                display: flex;
+                justify-content: space-between;
+                margin-top: 10px;
+            }
+
+            .address div input.names {
+                padding: 15px 40px;
+                border: 2px solid black;
+                width: 450px;
+            }
+
+            ul {
+                display: flex;
+                margin: 0;
+                padding: 0;
+
+            }
+
+            li {
+                list-style-type: none;
+                height: 20px;
+                width: 20px;
+                border: 1px solid black;
+                padding: 14px;
+            }
+
+            /* contact */
+            .contact {
+                display: flex;
+                justify-content: space-between;
+                margin-top: 10px;
+            }
+
+            .contact div input.names {
+                padding: 15px 40px;
+                border: 2px solid black;
+                width: 450px;
+            }
+
+            /* email */
+            .email {
+                display: flex;
+                flex-direction: start;
+                margin-top: 10px;
+            }
+
+            .email div input.names {
+                padding: 15px 40px;
+                border: 2px solid black;
+                width: 450px;
+            }
+
+            /* check */
+            .check {
+                width: 50%;
+                justify-content: space-between;
+                display: flex;
+                font-size: 20px;
+                margin-top: 10px;
+            }
+
+            /* last club */
+            .last-club {
+                display: flex;
+                justify-content: space-between;
+                margin-top: 10px;
+            }
+
+            .last-club div input {
+                /* padding: 15px 40px; */
+                border: 2px solid black;
+                width: 100%;
+                text-align: right;
+                /* height: 40px; */
+                padding-top: 25px;
+                font-size: 15px;
+
+            }
+
+            /* year */
+            .year {
+                display: flex;
+                justify-content: space-between;
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+
+            .year div input.date {
+                height: 35px;
+                width: 45px;
+
+            }
+
+            /* guard */
+            .guard {
+                display: flex;
+                justify-content: space-between;
+                margin-top: 10px;
+            }
+
+            .guard div input {
+                /* padding: 15px 40px; */
+                border: 2px solid black;
+                width: 100%;
+                text-align: right;
+                padding: 10px;
+                font-size: 10px;
+
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+        <div class="container">
+            <form action="">
+                <h2 style="text-align: center;">DANDENONG DISTRICT CRICKET ASSOCIATION-SENIOR REGISTRATION FORM</h2>
+                <div class="black" style="margin-bottom: 10px;">
+                    <p>CLUB DETAILS</p>
+                </div>
+                <div class="club-top">
+                    <div class="club-first">
+                        <span
+                            style="border: 4px dotted orange; font-size: 30px; padding: 5px;  position: absolute; top: 100px; left: 0;">T</span>
+                        <label for="">Club
+                            Name</label><br>
+                        <input type="text" placeholder="Lynbrook Cricket Club" pattern="[a-zA-Z]">
+                    </div>
+                    <div class="club" style="margin-top: 10px;">
+                        <!-- <label for="">Date</label><br>
+                        <table border="2">
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </table> -->
+                        <label for="">Date</label><br>
+                            <input style="width: 40px; height: 40px; border: 2px solid black;" type="text" pattern="[0-9]">
+                            <input style="width: 40px; height: 40px; border: 2px solid black;" type="text" pattern="[0-9]">
+                            <input style="width: 40px; height: 40px; border: 2px solid black;" type="text" pattern="[0-9]">
+                            <input style="width: 40px; height: 40px; border: 2px solid black;" type="text" pattern="[0-9]">
+                            <input style="width: 40px; height: 40px; border: 2px solid black;" type="text" pattern="[0-9]">
+                            <input style="width: 40px; height: 40px; border: 2px solid black;" type="text"pattern="[0-9]">
+                            <input style="width: 40px; height: 40px; border: 2px solid black;" type="text"pattern="[0-9]">
+                            <input style="width: 40px; height: 40px; border: 2px solid black;" type="text"pattern="[0-9]">
+                    </div>
+                    <div class="club">
+                        <label for="">Phone Number</label><br>
+                        <input class="number" type="number">
+                    </div>
+                </div>
+                <div class="club-name">
+                    <div>
+                        <label for="">Name of Club Official(Presidant or secretary)</label><br>
+                        <input class="off" type="text" placeholder="Kevin Clare">
+                    </div>
+                    <div class="">
+                        <label for="pos">Position(delete one)</label><br>
+                        <input class="pos" type="text" placeholder="PRESEDENT">
+                    </div>
+                    <div class="">
+                        <label for="pos">Signature</label><br>
+                        <input class="pos" type="text" placeholder="Kevin Clare">
+                    </div>
+                </div>
+                <div class="black">
+                    <p>PLAYER DETAIL</p>
+                </div>
+                <div class="player-name">
+                    <div>
+                        <label for="">Surname</label><br>
+                        <input class="names" type="text">
+                    </div>
+                    <div>
+                        <label for="">Given Names</label><br>
+                        <input class="names" style="width: 600px;" class="given" type="text">
+                    </div>
+                    <div>
+                        <label for="" class="exp">Junior</label><br>
+                        <input type="checkbox" class="checkbox" style="margin-left: 10px;">
+                    </div>
+                    <div>
+                        <label for="" class="exp">Senior</label><br>
+                        <input type="checkbox" class="checkbox" style="margin-left: 10px;">
+                    </div>
+                </div>
+                <div class="address">
+
+                    <div>
+                        <label for="">Street Address</label><br>
+                        <input style="width: 500px;" class="names" type="text">
+                    </div>
+                    <div>
+                        <label for="">Street Address</label><br>
+                        <input style="width: 500px;" class="names" type="text">
+                    </div>
+                    <div class="post">
+                        <label for="">Postcode</label>
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="contact">
+                    <div>
+                        <label for="">Home Phone Number</label><br>
+                        <input style="width: 300px;" class="names" type="text">
+                    </div>
+                    <div>
+                        <label for="">Mobile Phone Number</label><br>
+                        <input style="width: 300px;" class="names" type="text">
+                    </div>
+                    <div>
+                        <label for="">Work Phone Number</label><br>
+                        <input style="width: 400px;" class="names" type="text">
+                    </div>
+                </div>
+                <!-- email -->
+                <div class="email">
+                    <div>
+                        <label for="">Email Address</label><br>
+                        <input style="width: 500px;" class="names" type="text">
+                    </div>
+
+                    <di class="post" style="margin-left: 30px;">
+                        <label for="">Date of Birth</label><br>
+                            <input style="width: 40px; height: 40px; border: 2px solid black;" type="text">
+                            <input style="width: 40px; height: 40px; border: 2px solid black;" type="text">
+                            <input style="width: 40px; height: 40px; border: 2px solid black;" type="text">
+                            <input style="width: 40px; height: 40px; border: 2px solid black;" type="text">
+                            <input style="width: 40px; height: 40px; border: 2px solid black;" type="text">
+                            <input style="width: 40px; height: 40px; border: 2px solid black;" type="text">
+                            <input style="width: 40px; height: 40px; border: 2px solid black;" type="text">
+                            <input style="width: 40px; height: 40px; border: 2px solid black;" type="text">
+
+                </div>
+
+                <!--  -->
+                <div style="display: flex;">
+                    <div class="check">
+                        <div class="first-check" style="margin-left: 30px;">
+                            <label for="">Are you currently serving a suspension <br> from Another club or
+                                Association</label>
+                        </div>
+                        <div style="display: flex; justify-content: space-between;width: 100px; ">
+                            <input style="width: 30px; height: 30px ; " type="checkbox">
+                            <label for="" style="font-size: 20px; margin-right: 20px;">Yes</label><br>
+                        </div>
+                        <div style="display: flex; justify-content: space-between;width: 100px; ">
+                            <input style="width: 30px; height: 30px ; " type="checkbox">
+                            <label for="" style="font-size: 20px; margin-right: 20px;">No</label><br>
+                        </div>
+
+                    </div>
+                    <div class="check">
+                        <div class="first-check" style="margin-left: 30px;">
+                            <label for="">Are you considered to be Overseese <br> Player in terms of DDCA Rule
+                                23?</label>
+                        </div>
+                        <div style="display: flex; justify-content: space-between;width: 100px; ">
+                            <input style="width: 30px; height: 30px ; " type="checkbox">
+                            <label for="" style="font-size: 20px; margin-right: 20px;">Yes</label><br>
+                        </div>
+                        <div style="display: flex; justify-content: space-between;width: 100px; ">
+                            <input style="width: 30px; height: 30px ; " type="checkbox">
+                            <label for="" style="font-size: 20px; margin-right: 20px;">No</label><br>
+                        </div>
+
+                    </div>
+                </div>
+                <div style="display: flex;">
+                    <div class="check">
+                        <div class="first-check" style="margin-left: 30px;">
+                            <label for="">Have you played during the current or pre- <br>vios 2 sessions for another
+                                DDCA
+                                club</label>
+                        </div>
+                        <div style="display: flex; justify-content: space-between;width: 100px; ">
+                            <input style="width: 30px; height: 30px ; " type="checkbox">
+                            <label for="" style="font-size: 20px; margin-right: 20px;">Yes</label><br>
+                        </div>
+                        <div style="display: flex; justify-content: space-between;width: 100px; ">
+                            <input style="width: 30px; height: 30px ; " type="checkbox">
+                            <label for="" style="font-size: 20px; margin-right: 20px;">No</label><br>
+                        </div>
+
+                    </div>
+                    <div class="check">
+                        <div class="first-check" style="margin-left: 30px;">
+                            <label for="">Have you played during the current <br> season in an other than
+                                the
+                                DDCA?</label>
+                        </div>
+                        <div style="display: flex; justify-content: space-between;width: 100px; ">
+                            <input style="width: 30px; height: 30px ; " type="checkbox">
+                            <label for="" style="font-size: 20px; margin-right: 20px;">Yes</label><br>
+                        </div>
+                        <div style="display: flex; justify-content: space-between;width: 100px; ">
+                            <input style="width: 30px; height: 30px ; " type="checkbox">
+                            <label for="" style="font-size: 20px; margin-right: 20px;">No</label><br>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="last-club">
+                    <div style=" width: 40%">
+                        <label for="">Last club played with</label><br>
+                        <input type="text" placeholder="C.C">
+                    </div>
+                    <div style=" width: 55%;">
+                        <label for="">Affilated with</label><br>
+                        <input type="text" placeholder="">
+                    </div>
+                </div>
+                <div class="year">
+                    <div>
+                        <label for="">Month & Year Last Played</label><br>
+                        <div>
+                            <input class="date" type="text">
+                            <input class="date" type="text">
+                            <input class="date" type="text">
+                            <input class="date" type="text">
+                            <input class="date" type="text">
+                            <input class="date" type="text">
+                        </div>
+                    </div>
+                    <div>
+                        <label for="">Player's Signature</label><br>
+                        <input class="names" type="text" style="width: 500px;height: 40px; border: 2px solid black;">
+                    </div>
+                    <div>
+                        <label for="">Player's my cricket ID Number(club use)</label><br>
+                        <input class="names" type="text" style="width: 500px;height: 40px; border: 2px solid black;">
+                    </div>
+
+                </div>
+                <!--  -->
+                <div class="black">
+                    <p>PARENTAL CONSENT FOR JUNIOR PLAYER</p>
+                </div>
+                <!-- parent -->
+                <div>
+                    <p style="word-spacing: 2px; letter-spacing: 2px; font-size: 20px;text-align: center;">I consent to
+                        my child playing
+                        with the
+                        <span><input type="text"
+                                style="width: 500px;  padding-top: 30px; text-align: right; font-size: 30px;"
+                                placeholder="C.C"></span>
+                        and i release the cricket
+                        club and <br>
+                        the DDCA from liability for personal injury sustained while training or playing with this is
+                        cricket club or with DDCA representative teams. <br>
+                        I also acknowledge my child shall be bound by the rules of the DOSA including rules as the
+                        wearing of safety equipment
+                    </p>
+                </div>
+                <div class="guard">
+                    <div style=" width: 33%">
+                        <label for="">Parent or Guardian name</label><br>
+                        <input type="text">
+                    </div>
+                    <div style=" width: 33%;">
+                        <label for="">Parent or Guardian signature</label><br>
+                        <input type="text">
+                    </div>
+                    <div style="width: 30%;">
+                        <label for="">Date</label><br>
+                        <div>
+                            <input style="width: 20px;" type="text">
+                            <input style="width: 20px;" type="text">
+                            <input style="width: 20px;" type="text">
+                            <input style="width: 20px;" type="text">
+                            <input style="width: 20px;" type="text">
+                            <input style="width: 20px;" type="text">
+                            <input style="width: 20px;" type="text">
+                            <input style="width: 20px;" type="text">
+                        </div>
+                    </div>
+
+                </div>
+                <!-- guard phone -->
+                <div class="guard">
+                    <div style=" width: 25%">
+                        <label for="">Parent or Guardian Phone Number</label><br>
+                        <input type="text">
+                    </div>
+                    <div style=" width: 25%;">
+                        <label for="">Parent or Guardian Mobile Number</label><br>
+                        <input type="text">
+                    </div>
+                    <div style=" width: 25%; margin-right: 25px;">
+                        <label for="">Parent or Guardian Email Address</label><br>
+                        <input type="text">
+                    </div>
+
+                </div>
+                <div>
+                    <p style="font-size: 20px; font-weight: bold;">I consent to my child playing in a higher junioer age
+                        group or senior group</p>
+                </div>
+                <!-- guard -->
+                <div class="guard">
+                    <div style=" width: 33%">
+                        <label for="">Parent or Guardian name</label><br>
+                        <input type="text">
+                    </div>
+                    <div style=" width: 33%;">
+                        <label for="">Parent or Guardian signature</label><br>
+                        <input type="text">
+                    </div>
+                    <div style="width: 30%;">
+                        <label for="">Date</label><br>
+                        <div>
+                            <input style="width: 20px;" type="text">
+                            <input style="width: 20px;" type="text">
+                            <input style="width: 20px;" type="text">
+                            <input style="width: 20px;" type="text">
+                            <input style="width: 20px;" type="text">
+                            <input style="width: 20px;" type="text">
+                            <input style="width: 20px;" type="text">
+                            <input style="width: 20px;" type="text">
+                        </div>
+                    </div>
+
+                </div>
+                <pre
+                    style="font-size: 20px; font-weight: bold;">""Please Note - proof of the age required for all newly registered juniors players - refer DDCA junior rule</pre>
+
+                <h3 style="font-size: 30px;">Relevent details are to be input into myCricket and this form retained by
+                    the Club Secretory for
+                    production to the <br> DDCA if requested</h3>
+
+                <div style="display: flex; justify-content: space-evenly;">
+                    <div>
+                        <h3 style="font-size: 30px; padding-top: 10px;">
+                            All clearences are to be effected through my cricket-refer DDCA Rule 5.4
+                        </h3>
+                        <p
+                            style="padding-top: 10px; font-size: 20px ; font-weight: bold; letter-spacing: 1px;word-spacing: 2px;">
+                            <i>
+                                <span style="border: 4px dotted orange;">Note: All information required in this form by
+                                    the assosiation</span> <sup
+                                    style="background-color: rgb(255, 111, 0); height: 30px; width: 30px;"><span
+                                        style="color: white;margin-top: 5px;" class="material-symbols-outlined">
+                                        edit
+                                    </span></sup> will be
+                                collected.
+                                used and desclosed by the Association strictly <br> in accordians with the assosiation
+                                privacy
+                                Policy. A copy of this policy is avialable from the assossiation websiteor from the
+                                secretory
+                            </i>
+                        </p>
+                    </div>
+                    <img src="" alt="">
+                </div>
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit"><br><br>
+            </form>
+        </div>
+    </body>
+
+</html>

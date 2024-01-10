@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <svg width="500" height="500" style="border: 5px solid red;"> 
+        <!-- vertical Gradient= y1 and y2 are differenet whereas x1 and x2 -->
+        <defs>
+            <linearGradient id="l1" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0" style="stop-color: brown; stop_opacity: 1px;"></stop>
+                <stop offset="100%" style="stop-color: blueviolet;"></stop>
+            </linearGradient>
+        </defs>
+        <circle cx="150" cy="150" r="90" fill="url(#l1)" stroke="black" stroke-width="4"></circle>
+        <!-- horihontal Gradient =x1 and x2 are differenet and y1 and y2 are same -->
+        <defs>
+            <linearGradient id="l2" x1="0%" y1="0%" x2="0%" y2="100%">
+                <stop offset="0" style="stop-color: blue; stop_opacity: 2px;"></stop>
+                <stop offset="100%" style="stop-color: lime;"></stop>
+            </linearGradient>
+        </defs>
+        <circle cx="300" cy="250" r="90" fill="url(#l2)" stroke="black" stroke-width="4"></circle>
+    </svg>
+</body>
+</html>
